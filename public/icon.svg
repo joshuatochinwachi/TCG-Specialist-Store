@@ -1,0 +1,42 @@
+<svg width="180" height="180" viewBox="0 0 180 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    @media (prefers-color-scheme: light) {
+      .bg-card { fill: #ef4444; }
+      .bg-inner { fill: white; }
+      .pokeball-top { fill: #ef4444; }
+      .pokeball-band { fill: black; }
+      .pokeball-center { fill: white; }
+      .card-frame { fill: black; }
+      .card-inner { fill: white; }
+    }
+    @media (prefers-color-scheme: dark) {
+      .bg-card { fill: #dc2626; }
+      .bg-inner { fill: #f8fafc; }
+      .pokeball-top { fill: #dc2626; }
+      .pokeball-band { fill: #0f172a; }
+      .pokeball-center { fill: #f8fafc; }
+      .card-frame { fill: #0f172a; }
+      .card-inner { fill: #e2e8f0; }
+    }
+  </style>
+  
+  <!-- Rounded card background -->
+  <rect class="bg-card" width="180" height="180" rx="40" />
+  
+  <!-- Inner white area -->
+  <rect class="bg-inner" x="20" y="20" width="140" height="140" rx="30" />
+  
+  <!-- Pokeball top (red arc) -->
+  <path class="pokeball-top" d="M 90 40 A 50 50 0 0 1 140 90 L 40 90 A 50 50 0 0 1 90 40 Z" />
+  
+  <!-- Pokeball band (black horizontal stripe) -->
+  <rect class="pokeball-band" x="40" y="80" width="100" height="20" />
+  
+  <!-- Pokeball center circle -->
+  <circle class="pokeball-center" cx="90" cy="90" r="12" />
+  <circle class="pokeball-band" cx="90" cy="90" r="6" />
+  
+  <!-- Trading card frame -->
+  <rect class="card-frame" x="65" y="100" width="50" height="70" rx="4" />
+  <rect class="card-inner" x="70" y="105" width="40" height="60" rx="2" />
+</svg>
