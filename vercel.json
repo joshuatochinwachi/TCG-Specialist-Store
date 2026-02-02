@@ -3,5 +3,6 @@
     "devCommand": "pnpm dev",
     "installCommand": "pnpm install",
     "framework": "nextjs",
-    "outputDirectory": ".next"
+    "outputDirectory": ".next",
+    "nodeVersion": "22.x"
 }
